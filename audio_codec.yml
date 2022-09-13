@@ -22,7 +22,7 @@ templates:
     ignore_blank_results: true
     overlay:
       name: <<overlay_name>>
-      repo: images/overlays/audio/<<overlay>>.png
+      repo: /images/overlays/audio/<<overlay>>.png
       group: audio_codec
       weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
