@@ -1,0 +1,30 @@
+templates:
+  Mediastinger overlay:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+      horizontal_offset: 200
+      horizontal_align: right
+      vertical_offset: 15
+      vertical_align: top
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      repo: /images/overlays/awards/<<overlay>>
+      back_color: "#00000099"
+      horizontal_offset: <<horizontal_offset>>
+      horizontal_align: <<horizontal_align>>
+      vertical_offset: <<vertical_offset>>
+      vertical_align: <<vertical_align>>
+      back_radius: 30
+      back_width: 105
+      back_height: 105
+
+overlays:
+  Mediastinger:
+    template:
+      - name: Mediastinger overlay
+    plex_all: true
+    filters:
+      tmdb_keyword: aftercreditsstinger, duringcreditsstinger
