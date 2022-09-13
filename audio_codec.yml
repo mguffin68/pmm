@@ -36,24 +36,24 @@ templates:
 
 overlays:
 
-   Opus:
-     template:
-       - name: AudioCodec
-         weight: 250
-         slug: opus
-     plex_all: true
-     filters:
-      # audio_track_title.regex: '(?i)\bOPUS(\b|\d)'
+  Opus:
+    template:
+      - name: AudioCodec
+        weight: 250
+        slug: opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)\bOPUS(\b|\d)'
 
-   Opus-Filepath:
-     template:
-       - name: AudioCodec
-         overlay: Opus
-         weight: 250
-         slug: opus
-     plex_all: true
-     filters:
-       filepath.regex: '(?i)\bOPUS(\b|\d)'
+  Opus-Filepath:
+    template:
+      - name: AudioCodec
+        overlay: Opus
+        weight: 250
+        slug: opus
+    plex_all: true
+    filters:
+      filepath.regex: '(?i)\bOPUS(\b|\d)'
 
   MP3:
     template:
@@ -366,13 +366,13 @@ overlays:
     filters:
       audio_track_title.regex: '(?i)(?=.*\b(true[ .-]?hd))(?=.*\b(atmos(\b|\d)))'
 
-   Dolby-TrueHD-Atmos-Filepath:
-     template:
-       - name: AudioCodec
-         overlay: Dolby-TrueHD-Atmos
-         weight: 5000
-         slug: truehd-atmos
-         standard_value: 189
-     plex_all: true
-     filters:
-       filepath.regex: '(?i)(?=.*\b(true[ .-]?hd))(?=.*\b(atmos(\b|\d)))'
+  Dolby-TrueHD-Atmos-Filepath:
+    template:
+      - name: AudioCodec
+        overlay: Dolby-TrueHD-Atmos
+        weight: 5000
+        slug: truehd-atmos
+        standard_value: 189
+    plex_all: true
+    filters:
+      filepath.regex: '(?i)(?=.*\b(true[ .-]?hd))(?=.*\b(atmos(\b|\d)))'
