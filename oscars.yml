@@ -8,7 +8,7 @@ templates:
     imdb_list: https://www.imdb.com/search/title/?groups=best_picture_winner
     overlay:
       name: <<overlay_name>>
-      repo: /images/overlays/awards/Oscars-Ribbon
+      repo: /images/overlays/awards/<<overlay_name>>
       group: ribbon
       weight: <<weight>>
       horizontal_offset: 0
@@ -18,6 +18,6 @@ templates:
 
 overlays:
 
-  Oscars-Ribbon:
+  Oscars:
     template:
       - name: Oscars
