@@ -1,0 +1,20 @@
+templates:
+  collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    # sort_title: !02_<<order_>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+#    schedule: weekly(friday)
+    radarr_tag: <<collection_name>>
+  
+ collections:
+  Based on True Events:
+    smart_label: originally_available.desc
+    trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+    summary: Movies based on true events.
+    sort_title: '+2 Based on true events'
+    collection_poster: 
