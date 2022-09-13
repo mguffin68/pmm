@@ -1,0 +1,44 @@
+templates:
+  MCMustSeeMovies:
+    optional:
+      - overlay_level
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/metacriticmustseemovies
+    default:
+      overlay: <<overlay_name>>
+      weight: 10
+    overlay:
+      name: <<overlay_name>>
+      repo: /images/overlays/awards/<<overlay>>
+      group: ribbon
+      weight: <<weight>>
+      horizontal_offset: 0
+      horizontal_align: right
+      vertical_offset: 0
+      vertical_align: bottom
+
+  MCMustSeeShows:
+    optional:
+      - overlay_level
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/metacriticmustseeshows
+    default:
+      overlay: <<overlay_name>>
+      weight: 10
+    overlay:
+      name: <<overlay_name>>
+      repo: /images/overlays/awards/<<overlay>>
+      group: ribbon
+      weight: <<weight>>
+      horizontal_offset: 0
+      horizontal_align: right
+      vertical_offset: 0
+      vertical_align: bottom
+
+overlays:
+
+  MC-Must-See-Movies-Ribbon:
+    template:
+      - name: MCMustSeeMovies
+
+  MC-Must-See-Shows-Ribbon:
+    template:
+      - name: MCMustSeeShows
