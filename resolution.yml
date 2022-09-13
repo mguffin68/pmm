@@ -17,7 +17,7 @@ templates:
       - <<use_<<opt2>>>>
     overlay:
       name: <<overlay_name>>
-      repo: PMM/overlays/images/<<overlay>>
+      repo: /images/overlays/resolution/<<overlay>>
       group: res
       weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
