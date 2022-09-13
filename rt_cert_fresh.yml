@@ -1,0 +1,23 @@
+templates:
+  RTCertFresh:
+    optional:
+      - overlay_level
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/certifiedfresh<<library_type>>s
+    default:
+      overlay: <<overlay_name>>
+      weight: 20
+    overlay:
+      name: <<overlay_name>>
+      repo: /images/overlays/awards/<<overlay>>
+      group: ribbon
+      weight: <<weight>>
+      horizontal_offset: 0
+      horizontal_align: right
+      vertical_offset: 0
+      vertical_align: bottom
+
+overlays:
+
+  RT-Cert-Fresh-Ribbon:
+    template:
+      - name: RTCertFresh
