@@ -9,7 +9,7 @@ templates:
     collection_order: custom
     radarr_tag: <<collection_name>>
   
- collections:
+collections:
   Based on True Events:
     smart_label: originally_available.desc
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
