@@ -13,7 +13,7 @@ collections:
     sort_title: ComedyDark
     radarr_tag: Dark Comedies
   Martial Arts:
-    schedule: monthly(3)
+  #  schedule: monthly(3)
     imdb_list: https://www.imdb.com/list/ls000099643/
     limit: 100
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Martial_Arts.png
