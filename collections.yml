@@ -27,7 +27,7 @@ collections:
     collection_order: alpha
     collection_mode: default
     radarr_tag: Chick Flicks
-    #schedule: monthly(4)
+    schedule: monthly(4)
   Heist Movies:
     imdb_list:
       - https://www.imdb.com/list/ls068224634/
@@ -36,7 +36,7 @@ collections:
     collection_order: alpha
     collection_mode: default
     radarr_tag: Heist Movies
-    #schedule: monthly(5)
+    schedule: monthly(5)
   Quick Flicks:
     smart_label: release.desc
     summary: Movies 90 minutes or less.
@@ -44,13 +44,13 @@ collections:
     plex_search:
       duration.lte: 90
       genre.not: Animation
-    #schedule: monthly(6)
+    schedule: monthly(6)
   Time Travel:
     smart_label: title.asc
     trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
     summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
     radarr_tag: Time Travel
-    #schedule: monthly(7)
+    schedule: monthly(7)
   Mindfuck Movies:
     trakt_list:
      - https://trakt.tv/users/hdlists/lists/mindfuck-movies
@@ -61,7 +61,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Mindfuck%20Movies.png
     url_background: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/mindfuck_background.jpeg
     radarr_tag: mindfuck
-    # schedule: monthly(8)
+    schedule: monthly(8)
   Nostalgia Collection:
     trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
     sync_mode: sync
@@ -70,4 +70,4 @@ collections:
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/nostalgia.jpg
     url_background: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/nostalgia_background.jpeg
     radarr_tag: nostalgia
-    # schedule: monthly(9)
+    schedule: monthly(9)
