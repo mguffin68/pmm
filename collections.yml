@@ -13,17 +13,17 @@ collections:
     smart_label: originally_available.desc
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
     summary: Movies based on true events.
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/collections/<<collection>>.png
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/<<collection>>.png
     radarr_tag: pmm, Based on True Events
   Dark Comedies:
 #    schedule: monthly(2)
 #              monthly(16)
     tmdb_keyword: https://www.themoviedb.org/keyword/10123/
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/collections/Dark%20Comedy.png
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Dark%20Comedy.png
     sort_title: ++_ComedyDark
     sort_by: audience_rating.desc
   Action:
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/collections/Action.png
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Action.png
     sort_title: ++_Action
     smart_filter:
       all:
@@ -34,7 +34,7 @@ collections:
           studio.not: Disney
       sort_by: audience_rating.desc
   Documentaries:
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/collections/Documentaries.png
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Documentaries.png
     sort_title: ++_Documentary
     smart_filter:
       all:
@@ -42,7 +42,7 @@ collections:
           genre: Documentary
       sort_by: audience_rating.desc
   Comedies:
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/collections/Comedy.png
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Comedy.png
     sort_title: ++_Comedy
     smart_filter:
       all:
@@ -52,7 +52,7 @@ collections:
           genre.not: Animation
       sort_by: audience_rating.desc
   Sci-Fi:
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/collections/Science%20Fiction.png
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/Science%20Fiction.png
     sort_title: ++_SciFi
     smart_filter:
       all:
@@ -62,7 +62,7 @@ collections:
           genre.not: Animation
       sort_by: audience_rating.desc
   Drama:
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/collections/Drama.png
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/Drama.png
     sort_title: ++_SciFi
     smart_filter:
       all:
