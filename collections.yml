@@ -1,13 +1,3 @@
-templates:
-  collection:
-    optional:
-      - collection
-      - movie
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    sync_mode: sync
-    collection_order: custom
-  
 collections:
   Based on True Events:
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
