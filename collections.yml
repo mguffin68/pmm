@@ -9,62 +9,13 @@ templates:
     collection_order: custom
   
 collections:
-  # Based on True Events:
-    # trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
-    # summary: Movies based on true events.
-    # radarr_tag: pmm, Based on True Events
-  # Dark Comedies:
-# #    schedule: monthly(2)
-# #              monthly(16)
-    # tmdb_keyword: https://www.themoviedb.org/keyword/10123/
-    # url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Dark%20Comedy.png
-    # sort_title: ++_ComedyDark
-  Action:
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/<<collection>>
-    sort_title: ++_Action
-    smart_filter:
-      all:
-        any:
-          genre: Action
-        all:
-          genre.not: Animation, Comedy, Sci-Fi, Science Fiction
-          studio.not: Disney
-      sort_by: audience_rating.desc
-  # Documentaries:
-    # url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Documentaries.png
-    # sort_title: ++_Documentary
-    # smart_filter:
-      # all:
-        # any:
-          # genre: Documentary
-      # sort_by: audience_rating.desc
-  # Comedies:
-    # url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Comedy.png
-    # sort_title: ++_Comedy
-    # smart_filter:
-      # all:
-        # any:
-          # genre: Comedy
-        # all:
-          # genre.not: Animation
-      # sort_by: audience_rating.desc
-  # Sci-Fi:
-    # url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/Science%20Fiction.png
-    # sort_title: ++_SciFi
-    # smart_filter:
-      # all:
-        # any:
-          # genre: Sci-Fi, Science Fiction
-        # all:
-          # genre.not: Animation
-      # sort_by: audience_rating.desc
-  # Drama:
-    # url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/overlays/Drama.png
-    # sort_title: ++_SciFi
-    # smart_filter:
-      # all:
-        # any:
-          # genre: Drama
-        # all:
-          # genre.not: Animation
-      # sort_by: audience_rating.desc
+  Based on True Events:
+    trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+    summary: Movies based on true events.
+    radarr_tag: pmm, Based on True Events
+  Dark Comedies:
+#    schedule: monthly(2)
+#              monthly(16)
+    tmdb_keyword: https://www.themoviedb.org/keyword/10123/
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Dark%20Comedy.png
+    sort_title: ++_ComedyDark
