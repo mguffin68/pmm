@@ -10,10 +10,8 @@ templates:
   
 collections:
   Based on True Events:
-    smart_label: originally_available.desc
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
     summary: Movies based on true events.
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/<<collection>>.png
     radarr_tag: pmm, Based on True Events
   Dark Comedies:
 #    schedule: monthly(2)
@@ -21,7 +19,6 @@ collections:
     tmdb_keyword: https://www.themoviedb.org/keyword/10123/
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Dark%20Comedy.png
     sort_title: ++_ComedyDark
-    sort_by: audience_rating.desc
   Action:
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Action.png
     sort_title: ++_Action
