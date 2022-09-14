@@ -20,7 +20,8 @@ collections:
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Dark%20Comedy.png
     sort_title: ++_ComedyDark
   Action:
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Action.png
+    repo: /images/collections/Action.png
+#    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Action.png
     sort_title: ++_Action
     smart_filter:
       all:
