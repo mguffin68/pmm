@@ -1,19 +1,69 @@
 collections:
   Based on True Events:
+    schedule: monthly(1)
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
     limit: 100
     summary: Movies based on true events.
     radarr_tag: Based on True Events
   Dark Comedies:
-#    schedule: monthly(2)
-#              monthly(16)
+    schedule: monthly(2)
     tmdb_keyword: https://www.themoviedb.org/keyword/10123/
     limit: 100
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Dark%20Comedy.png
     sort_title: ComedyDark
     radarr_tag: Dark Comedies
   Martial Arts:
+    schedule: monthly(3)
     imdb_list: https://www.imdb.com/list/ls000099643/
     limit: 100
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Martial%20Arts.png
     radarr_tag: Martial Arts
+  Chick Flicks:
+    trakt_list: 
+      - https://trakt.tv/users/29zombies/lists/romantic-comedies
+      - https://trakt.tv/users/yirmaster/lists/chick-flicks
+    summary: Get in touch with your feminine side.
+    collection_order: alpha
+    collection_mode: default
+    radarr_tag: Chick Flicks
+  Heist Movies:
+    imdb_list:
+      - https://www.imdb.com/list/ls068224634/
+      - https://www.imdb.com/list/ls009794682/
+    summary: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist.
+    collection_order: alpha
+    collection_mode: default
+    radarr_tag: Heist Movies
+  Quick Flicks:
+    smart_label: release.desc
+    summary: Movies 90 minutes or less.
+    collection_mode: default
+    plex_search:
+      duration.lte: 90
+      genre.not: Animation
+  Time Travel:
+    smart_label: title.asc
+    trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
+    summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
+    radarr_tag: Time Travel
+  Mindfuck Movies:
+    trakt_list:
+     - https://trakt.tv/users/hdlists/lists/mindfuck-movies
+     - https://trakt.tv/users/benfranklin/lists/best-mindfucks
+    smart_label: critic_rating.desc
+    sync_mode: sync
+    summary: Movies to leave your mind, well, fucked. Sorted by critical acclaim.
+    url_background: https://i.imgur.com/DM1Im1X.jpeg
+    radarr_tag: mindfuck
+    # schedule: monthly(3)
+              # monthly(17)
+  Nostalgia Collection:
+    trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    summary: All The Nostalgiac Movies From The 80s & 90s in One Collection, sorted by critical acclaim.
+    url_poster: https://i.imgur.com/vE8dsdd.jpg
+    url_background: https://i.imgur.com/frz0kly.jpg
+    radarr_tag: nostalgia
+    # schedule: monthly(4)
+              # monthly(18)
