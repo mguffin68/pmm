@@ -5,7 +5,7 @@ templates:
       - movie
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
-    sort_title: !02_<<collection_name>>
+    # sort_title: !02_<<collection_name>>
     sync_mode: sync
     collection_order: custom
 #    schedule: weekly(friday)
