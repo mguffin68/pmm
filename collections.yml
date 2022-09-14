@@ -16,7 +16,7 @@ collections:
     schedule: monthly(3)
     imdb_list: https://www.imdb.com/list/ls000099643/
     limit: 100
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Martial%20Arts.png
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Martial_Arts.png
     radarr_tag: Martial Arts
   Chick Flicks:
     trakt_list: 
