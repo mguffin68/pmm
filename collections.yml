@@ -8,4 +8,4 @@ collections:
 #              monthly(16)
     tmdb_keyword: https://www.themoviedb.org/keyword/10123/
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Dark%20Comedy.png
-    sort_title: ++_ComedyDark
+    sort_title: ComedyDark
