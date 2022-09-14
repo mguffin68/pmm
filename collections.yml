@@ -2,10 +2,15 @@ collections:
   Based on True Events:
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
     summary: Movies based on true events.
-    radarr_tag: pmm, Based on True Events
+    radarr_tag: Based on True Events
   Dark Comedies:
 #    schedule: monthly(2)
 #              monthly(16)
     tmdb_keyword: https://www.themoviedb.org/keyword/10123/
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Dark%20Comedy.png
     sort_title: ComedyDark
+    radarr_tag: Dark Comedies
+  Martial Arts:
+    imdb_list: https://www.imdb.com/list/ls000099643/
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Martial%20Arts.png
+    radarr_tag: Martial Arts
