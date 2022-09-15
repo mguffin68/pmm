@@ -70,14 +70,15 @@ collections:
     trakt_list: https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Gangster.png
     collection_order: custom
+    smart_label: critic_rating.desc
     sync_mode: sync
-    radarr_tag: gangster
     schedule: monthly(10)
     radarr_tag: gangster
   Music Movies:
     trakt_list: https://trakt.tv/users/mguffin/lists/music-movies
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Music.png
     collection_order: custom
+    smart_label: critic_rating.desc
     sync_mode: sync
     #schedule: monthly(11)
     radarr_tag: music
