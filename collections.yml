@@ -72,4 +72,5 @@ collections:
     collection_order: custom
     sync_mode: sync
     radarr_tag: gangster
-    #schedule: monthly(10)
+    schedule: monthly(10)
+    radarr_tag: gangster
