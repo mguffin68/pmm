@@ -68,7 +68,7 @@ collections:
     schedule: monthly(9)
   Gangster Movies:
     trakt_list: https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list?sort=rank,asc
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Gangster.jpg
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Gangster.png
     collection_order: custom
     sync_mode: sync
     radarr_tag: gangster
@@ -76,9 +76,8 @@ collections:
     radarr_tag: gangster
   Music Movies:
     trakt_list: https://trakt.tv/users/mguffin/lists/music-movies?sort=popularity,asc
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Music.jpg
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Music.png
     collection_order: custom
     sync_mode: sync
-    radarr_tag: gangster
     #schedule: monthly(11)
     radarr_tag: music
