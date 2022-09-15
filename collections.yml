@@ -66,3 +66,10 @@ collections:
     url_background: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/nostalgia_background.jpeg
     radarr_tag: nostalgia
     schedule: monthly(9)
+  Gangster Movies:
+    trakt_list: https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list?sort=rank,asc
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Gangster.jpg
+    collection_order: custom
+    sync_mode: sync
+    radarr_tag: gangster
+    #schedule: monthly(10)
