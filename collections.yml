@@ -1,7 +1,8 @@
 collections:
-  Based on True Events:
+  Based on a True Story:
     schedule: monthly(1)
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/True%20Stories.png
     limit: 100
     summary: Movies based on true events.
     radarr_tag: Based on True Events
@@ -33,6 +34,7 @@ collections:
       - https://www.imdb.com/list/ls068224634/
       - https://www.imdb.com/list/ls009794682/
     summary: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist.
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Heist.jpg
     collection_order: alpha
     collection_mode: default
     radarr_tag: Heist Movies
@@ -49,6 +51,7 @@ collections:
     smart_label: title.asc
     trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
     summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
+    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Time%20Travel.jpg
     radarr_tag: Time Travel
     schedule: monthly(7)
   Mindfuck Movies:
