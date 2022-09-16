@@ -1,0 +1,63 @@
+templates:
+  collection:
+    default:
+      collection_order: release
+      minimum_items: 2
+    optional:
+      - collection
+      - movie
+      - radarr_add_missing
+      - name_mapping
+      - sort_title
+      - build_collection
+    cache_builders: 1
+    minimum_items: <<minimum_items>>
+    tmdb_collection_details: <<value>>
+    tmdb_movie: <<movie>>
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    build_collection: <<build_collection>>
+    sync_mode: sync
+    collection_order: <<collection_order>>
+    radarr_add_missing: <<radarr_add_missing>>
+
+dynamic_collections:
+  TMDb Collections:
+    type: tmdb_collection
+    remove_suffix: "Collection"
+    template: collection
+    addons:
+      8091:       # Alien
+        - 135416    # Prometheus
+      9485:       # The Fast and the Furious
+        - 688042    # Hobbs & Shaw
+      748:        # X-Men
+        - 453993    # The Wolverine
+    title_override:
+      10: "Star Wars: Skywalker Saga"
+      535313: Godzilla (MonsterVerse)
+      535790: Godzilla (Anime)
+    template_variables:
+      movie:
+        105995: 336560    # Anaconda: Lake Placid vs. Anaconda
+        176097: 14177     # Barbershop: Beauty Shop
+        448150: 567604    # Deadpool: Once Upon a Deadpool
+        374509: 18983 # Godzilla (Showa): Godzilla, King of the Monsters!
+        374511: 39256 # Godzilla (Heisei): Godzilla 1985
+        535313: 293167  # Godzilla: Kong: Skull Island
+        70068: 658009, 643413, 450001, 751391, 44249, 182127, 44865 # Ip Man: Ip Man: Kung Fu Master, Ip Man and Four Kings, Master Z: Ip Man Legacy, Young Ip Man: Crisis Time, The Legend Is Born: Ip Man, Ip Man: The Final Fight, The Grandmaster
+        328: 630322 # Jurassic Park: Battle at Big Rock
+        8580: 38575 # The Karate Kid: The Karate Kid
+        171732: 39410 # Rebirth of Mothra: Mothra
+        190435: 687354, 11667 # Street Fighter (Animated): Street Fighter Assassin's Fist, Street Fighter
+        10194: 130925 # Toy Story: Partysaurus Rex
+        63043: 73362  # TRON: TRON: The Next Day
+        748: 567604 # X-Men: Once Upon a Deadpool
+      name_mapping:
+        1565: 28 Days-Weeks Later
+        386534: Has Fallen
+        87359: Mission Impossible
+        115575: Star Trek Alternate Reality
+        115570: Star Trek The Next Generation
+        151: Star Trek The Original Series
+        10: Star Wars Skywalker Saga
