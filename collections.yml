@@ -10,6 +10,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/True%20Stories.png
     limit: 100
     summary: Movies based on true events.
+    smart_label: critic_rating.desc
     radarr_tag: Based on True Events
   Dark Comedies:
     schedule: monthly(2)
