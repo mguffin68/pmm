@@ -1,7 +1,12 @@
 collections:
   Based on a True Story:
-    schedule: monthly(1)
+    #schedule: monthly(1)
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+    imdb_list: 
+      - https://www.imdb.com/list/ls046648040/?sort=num_votes
+      - https://www.imdb.com/list/ls074038725/?sort=num_votes
+      - https://www.imdb.com/list/ls084944137/?sort=num_votes
+      - https://www.imdb.com/list/ls099275673/?sort=num_votes
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/True%20Stories.png
     limit: 100
     summary: Movies based on true events.
