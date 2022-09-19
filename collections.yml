@@ -91,9 +91,10 @@ collections:
       all:
         genre.not: Biography, Animation, Documentary
         critic_rating.gte: 0.1
+        label.not: keep
       sort_by: critic_rating.asc
       limit: 20
-    #schedule: monthly(15)
+    schedule: monthly(15)
     item_radarr_tag: PMM-Critic Bad
     radarr_tag: PMM-Critic Bad
   Audience Bad Movies:
@@ -101,8 +102,9 @@ collections:
       all:
         genre.not: Biography, Animation, Documentary
         audience_rating.gte: 0.1
+        label.not: keep
       sort_by: audience_rating.asc
       limit: 20
-    #schedule: monthly(15)
+    schedule: monthly(15)
     item_radarr_tag: PMM-Audience Bad
     radarr_tag: PMM-Audience Bad
