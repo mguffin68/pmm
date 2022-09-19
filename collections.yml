@@ -95,6 +95,7 @@ collections:
       limit: 20
     #schedule: monthly(15)
     item_radarr_tag: PMM-Critic Bad
+    radarr_tag: PMM-Critic Bad
   Audience Bad Movies:
     plex_search:
       all:
@@ -104,3 +105,4 @@ collections:
       limit: 20
     #schedule: monthly(15)
     item_radarr_tag: PMM-Audience Bad
+    radarr_tag: PMM-Audience Bad
