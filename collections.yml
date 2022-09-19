@@ -1,6 +1,6 @@
 collections:
   Based on a True Story:
-    #schedule: monthly(1)
+    schedule: monthly(1)
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
     imdb_list: 
       - https://www.imdb.com/list/ls046648040/?sort=num_votes
@@ -84,7 +84,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Music.png
     smart_label: critic_rating.desc
     sync_mode: sync
-    #schedule: monthly(11)
+    schedule: monthly(11)
     radarr_tag: music
   Critic Bad Movies:
     plex_search:
