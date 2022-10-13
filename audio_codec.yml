@@ -36,44 +36,6 @@ templates:
 
 overlays:
 
-  Opus:
-    template:
-      - name: AudioCodec
-        weight: 250
-        slug: opus
-    plex_all: true
-    filters:
-      audio_track_title.regex: '(?i)\bOPUS(\b|\d)'
-
-  Opus-Filepath:
-    template:
-      - name: AudioCodec
-        overlay: Opus
-        weight: 250
-        slug: opus
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\bOPUS(\b|\d)'
-
-  MP3:
-    template:
-      - name: AudioCodec
-        weight: 500
-        slug: mp3
-    plex_all: true
-    filters:
-      audio_track_title.regex: '(?i)\bmp3(\b|\d)'
-
-  MP3-Filepath:
-    template:
-      - name: AudioCodec
-        overlay: MP3
-        weight: 500
-        slug: mp3
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\bmp3(\b|\d)'
-
 # AAC 2.0 Audio
   AAC2.0:
     template:
