@@ -200,6 +200,7 @@ collections:
         image: seasonal/<<key>>
       - name: arr
     imdb_list: https://www.imdb.com/list/ls000096828/
+    imdb_list: https://www.imdb.com/search/keyword/?keywords=christmas-movie
 
   New Year's Day:
     variables:
