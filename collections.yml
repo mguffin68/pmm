@@ -110,5 +110,7 @@ collections:
     radarr_tag: PMM-Audience Bad
   $1 Billion Dollar Movies:
     mdblist_list: https://mdblist.com/lists/mguffin/billion-dollars
+    schedule: monthly(25)
     item_radarr_tag: PMM-Billion
     radarr_tag: PMM-Billion
+    sort_by: year.asc
