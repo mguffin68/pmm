@@ -86,28 +86,28 @@ collections:
     sync_mode: sync
     schedule: monthly(11)
     radarr_tag: music
-  Critic Bad Movies:
-    plex_search:
-      all:
-        genre.not: Biography, Animation, Documentary
-        critic_rating.gte: 0.1
-        label.not: keep
-      sort_by: critic_rating.asc
-      limit: 20
-    schedule: monthly(15)
-    item_radarr_tag: PMM-Critic Bad
-    radarr_tag: PMM-Critic Bad
-  Audience Bad Movies:
-    plex_search:
-      all:
-        genre.not: Biography, Animation, Documentary
-        audience_rating.gte: 0.1
-        label.not: keep
-      sort_by: audience_rating.asc
-      limit: 20
-    schedule: monthly(15)
-    item_radarr_tag: PMM-Audience Bad
-    radarr_tag: PMM-Audience Bad
+#  Critic Bad Movies:
+#    plex_search:
+#      all:
+#        genre.not: Biography, Animation, Documentary
+#        critic_rating.gte: 0.1
+#        label.not: keep
+#      sort_by: critic_rating.asc
+#      limit: 20
+#    schedule: monthly(15)
+#    item_radarr_tag: PMM-Critic Bad
+#    radarr_tag: PMM-Critic Bad
+# Audience Bad Movies:
+#    plex_search:
+#      all:
+#        genre.not: Biography, Animation, Documentary
+#        audience_rating.gte: 0.1
+#        label.not: keep
+#     sort_by: audience_rating.asc
+#     limit: 20
+#    schedule: monthly(15)
+#    item_radarr_tag: PMM-Audience Bad
+#    radarr_tag: PMM-Audience Bad
   $1 Billion Dollar Movies:
     mdblist_list: https://mdblist.com/lists/mguffin/billion-dollars
     schedule: monthly(25)
