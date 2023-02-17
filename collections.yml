@@ -7,7 +7,7 @@ collections:
       - https://www.imdb.com/list/ls074038725/?sort=num_votes
       - https://www.imdb.com/list/ls084944137/?sort=num_votes
       - https://www.imdb.com/list/ls099275673/?sort=num_votes
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/True%20Stories.png
+    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1075518044375355432/xanadu68_true_story_movie_poster_938e2ceb-0b02-4813-a50e-3b1c2da0578f.png
     limit: 100
     summary: Movies based on true events.
     smart_label: critic_rating.desc
@@ -30,7 +30,7 @@ collections:
       - https://trakt.tv/users/29zombies/lists/romantic-comedies
       - https://trakt.tv/users/yirmaster/lists/chick-flicks
     summary: Get in touch with your feminine side.
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Chick%20Flick.png
+    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1075517671992463381/xanadu68_chick_flick_movie_poster_b96b2eea-68a0-41f4-970a-f04621861847.png
     collection_order: alpha
     collection_mode: default
     radarr_tag: Chick Flicks
@@ -59,7 +59,7 @@ collections:
     smart_label: critic_rating.desc
     sync_mode: sync
     summary: Movies to leave your mind, well, fucked. Sorted by critical acclaim.
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Mindfuck%20Movies.png
+    url_poster: https://cdn.discordapp.com/attachments/975040264701870103/1075470391922925659/xanadu68_mindblowing_movie_poster_5257b75a-bfb9-41e0-8494-fab0608d5a4e.png
     url_background: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/mindfuck_background.jpeg
     radarr_tag: mindfuck
     schedule: monthly(8)
