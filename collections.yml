@@ -16,7 +16,7 @@ collections:
     schedule: monthly(2)
     tmdb_keyword: https://www.themoviedb.org/keyword/10123/
     limit: 100
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Dark%20Comedy.png
+    url_poster: https://cdn.discordapp.com/ephemeral-attachments/1075514124538216498/1076296706565623909/xanadu68_dark_comedy_movie_poster_4k_man_laughing_blood_906c5d40-198b-47b3-bfbb-8e69dc0950ee.png
     sort_title: ComedyDark
     radarr_tag: Dark Comedies
   Martial Arts:
@@ -40,7 +40,7 @@ collections:
       - https://www.imdb.com/list/ls068224634/
       - https://www.imdb.com/list/ls009794682/
     summary: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist.
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Heist.jpg
+    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076295836557918258/xanadu68_heist_movie_poster_bank_vault_35mm_2b428c96-b474-41f2-a28f-c3d3c15b0401.png
     collection_order: alpha
     collection_mode: default
     radarr_tag: Heist Movies
@@ -74,7 +74,7 @@ collections:
     schedule: monthly(9)
   Gangster Movies:
     trakt_list: https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Gangster.png
+    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076292994900168754/xanadu68_gangster_movie_poster_man_with_tommy_gun_1940s_d5eef547-1b78-4c39-8ece-5f8a3d7e45d4.png
     smart_label: critic_rating.desc
     sync_mode: sync
     schedule: monthly(10)
@@ -110,6 +110,7 @@ collections:
 #    radarr_tag: PMM-Audience Bad
   $1 Billion Dollar Movies:
     mdblist_list: https://mdblist.com/lists/mguffin/billion-dollars
+    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076236970361098341/xanadu68_money_movie_poster_piles_of_cash_and_gold_1ad57596-a734-4bf7-ad83-dbbf213b5f3b.png
     schedule: monthly(25)
     item_radarr_tag: PMM-Billion
     radarr_tag: PMM-Billion
