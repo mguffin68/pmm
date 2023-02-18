@@ -23,7 +23,7 @@ collections:
     schedule: monthly(3)
     imdb_list: https://www.imdb.com/list/ls000099643/
     limit: 100
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Martial_Arts.png
+    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076299664812408842/xanadu68_martial_arts_movie_poster_bruce_lee_full_body_kick_197_869db773-5657-4e7a-891f-b13849a35e63.png
     radarr_tag: Martial Arts
   Chick Flicks:
     trakt_list: 
@@ -49,7 +49,7 @@ collections:
     smart_label: title.asc
     trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
     summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
-    url_poster: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/Time%20Travel.jpg
+    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076575057515655368/xanadu68_time_travel_movie_poster_2c0e0443-7934-4e94-aaaa-7f1d8dc0ea6d.png
     radarr_tag: Time Travel
     schedule: monthly(7)
   Mindfuck Movies:
