@@ -70,7 +70,7 @@ collections:
     summary: All The Nostalgiac Movies From The 80s & 90s in One Collection, sorted by critical acclaim.
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076303537832722462/xanadu68_vhs_movie_poster_1980s_7124bc48-ed62-4694-a835-f1d7f55d7dd8.png
     url_background: https://cdn.discordapp.com/attachments/1075514124538216498/1076310517657899028/xanadu68_1908s_teens_walking_through_hollywood_4k_cinematic_bbcd791b-72b4-4d64-a498-bb6c261c6ae4.png
-    radarr_tag: nostalgia
+    radarr_tag: PMM-nostalgia
     schedule: monthly(9)
   Gangster Movies:
     trakt_list: https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list
@@ -78,14 +78,14 @@ collections:
     smart_label: critic_rating.desc
     sync_mode: sync
     schedule: monthly(10)
-    radarr_tag: gangster
+    radarr_tag: PMM-gangster
   Music Movies:
     trakt_list: https://trakt.tv/users/mguffin/lists/music-movies
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076302002079936523/xanadu68_music_movie_poster_led_zepplin_on_stage_f403c950-f029-4a88-b0fe-ee6d96ad15b9.png
     smart_label: critic_rating.desc
     sync_mode: sync
     schedule: monthly(11)
-    radarr_tag: music
+    radarr_tag: PMM-music
 #  Critic Bad Movies:
 #    plex_search:
 #      all:
@@ -108,7 +108,7 @@ collections:
 #    schedule: monthly(15)
 #    item_radarr_tag: PMM-Audience Bad
 #    radarr_tag: PMM-Audience Bad
-  $1 Billion Dollar Movies:
+  Billion Dollar Movies:
     mdblist_list: https://mdblist.com/lists/mguffin/billion-dollars
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076236970361098341/xanadu68_money_movie_poster_piles_of_cash_and_gold_1ad57596-a734-4bf7-ad83-dbbf213b5f3b.png
     schedule: monthly(25)
