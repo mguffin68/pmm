@@ -69,7 +69,7 @@ collections:
     smart_label: critic_rating.desc
     summary: All The Nostalgiac Movies From The 80s & 90s in One Collection, sorted by critical acclaim.
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076303537832722462/xanadu68_vhs_movie_poster_1980s_7124bc48-ed62-4694-a835-f1d7f55d7dd8.png
-    url_background: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/nostalgia_background.jpeg
+    url_background: https://cdn.discordapp.com/attachments/1075514124538216498/1076310517657899028/xanadu68_1908s_teens_walking_through_hollywood_4k_cinematic_bbcd791b-72b4-4d64-a498-bb6c261c6ae4.png
     radarr_tag: nostalgia
     schedule: monthly(9)
   Gangster Movies:
