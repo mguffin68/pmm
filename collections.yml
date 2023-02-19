@@ -11,14 +11,14 @@ collections:
     limit: 100
     summary: Movies based on true events.
     smart_label: critic_rating.desc
-    radarr_tag: Based on True Events
+    radarr_tag: PMM-Based on True Events
   Dark Comedies:
     schedule: monthly(2)
     tmdb_keyword: https://www.themoviedb.org/keyword/10123/
     limit: 100
     url_poster: https://cdn.discordapp.com/ephemeral-attachments/1075514124538216498/1076296706565623909/xanadu68_dark_comedy_movie_poster_4k_man_laughing_blood_906c5d40-198b-47b3-bfbb-8e69dc0950ee.png
     sort_title: ComedyDark
-    radarr_tag: Dark Comedies
+    radarr_tag: PMM-Dark Comedies
   Martial Arts:
     schedule: monthly(3)
     imdb_list: https://www.imdb.com/list/ls000099643/
@@ -33,7 +33,7 @@ collections:
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1075517671992463381/xanadu68_chick_flick_movie_poster_b96b2eea-68a0-41f4-970a-f04621861847.png
     collection_order: alpha
     collection_mode: default
-    radarr_tag: Chick Flicks
+    radarr_tag: PMM-Chick Flicks
     schedule: monthly(4)
   Heist:
     imdb_list:
@@ -43,14 +43,14 @@ collections:
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076295836557918258/xanadu68_heist_movie_poster_bank_vault_35mm_2b428c96-b474-41f2-a28f-c3d3c15b0401.png
     collection_order: alpha
     collection_mode: default
-    radarr_tag: Heist Movies
+    radarr_tag: PMM-Heist Movies
     schedule: monthly(5)
   Time Travel:
     smart_label: title.asc
     trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
     summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076575057515655368/xanadu68_time_travel_movie_poster_2c0e0443-7934-4e94-aaaa-7f1d8dc0ea6d.png
-    radarr_tag: Time Travel
+    radarr_tag: PMM-Time Travel
     schedule: monthly(7)
   Mindfuck:
     trakt_list:
@@ -61,7 +61,7 @@ collections:
     summary: Movies to leave your mind, well, fucked. Sorted by critical acclaim.
     url_poster: https://cdn.discordapp.com/attachments/975040264701870103/1075470391922925659/xanadu68_mindblowing_movie_poster_5257b75a-bfb9-41e0-8494-fab0608d5a4e.png
     url_background: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/mindfuck_background.jpeg
-    radarr_tag: mindfuck
+    radarr_tag: PMM-mindfuck
     schedule: monthly(8)
   Nostalgia:
     trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
@@ -93,6 +93,7 @@ collections:
     sync_mode: sync
     trakt_list: https://trakt.tv/users/29zombies/lists/disaster
     url_poster: https://theposterdb.com/api/assets/204258
+    radarr_tag: PMM-disaster
 #  Critic Bad Movies:
 #    plex_search:
 #      all:
