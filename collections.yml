@@ -35,7 +35,7 @@ collections:
     collection_mode: default
     radarr_tag: Chick Flicks
     schedule: monthly(4)
-  Heist Movies:
+  Heist:
     imdb_list:
       - https://www.imdb.com/list/ls068224634/
       - https://www.imdb.com/list/ls009794682/
@@ -52,7 +52,7 @@ collections:
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076575057515655368/xanadu68_time_travel_movie_poster_2c0e0443-7934-4e94-aaaa-7f1d8dc0ea6d.png
     radarr_tag: Time Travel
     schedule: monthly(7)
-  Mindfuck Movies:
+  Mindfuck:
     trakt_list:
      - https://trakt.tv/users/hdlists/lists/mindfuck-movies
      - https://trakt.tv/users/benfranklin/lists/best-mindfucks
@@ -63,7 +63,7 @@ collections:
     url_background: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/mindfuck_background.jpeg
     radarr_tag: mindfuck
     schedule: monthly(8)
-  Nostalgia Collection:
+  Nostalgia:
     trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
     sync_mode: sync
     smart_label: critic_rating.desc
@@ -72,7 +72,7 @@ collections:
     url_background: https://cdn.discordapp.com/attachments/1075514124538216498/1076310517657899028/xanadu68_1908s_teens_walking_through_hollywood_4k_cinematic_bbcd791b-72b4-4d64-a498-bb6c261c6ae4.png
     radarr_tag: PMM-nostalgia
     schedule: monthly(9)
-  Gangster Movies:
+  Gangster:
     trakt_list: 
      - https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list
      - https://trakt.tv/users/bmonomad/lists/gangster
@@ -81,14 +81,14 @@ collections:
     sync_mode: sync
     schedule: monthly(10)
     radarr_tag: PMM-gangster
-  Music Movies:
+  Music:
     trakt_list: https://trakt.tv/users/mguffin/lists/music-movies
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076302002079936523/xanadu68_music_movie_poster_led_zepplin_on_stage_f403c950-f029-4a88-b0fe-ee6d96ad15b9.png
     smart_label: critic_rating.desc
     sync_mode: sync
     schedule: monthly(11)
     radarr_tag: PMM-music
-  Disaster Movies:
+  Disaster:
     collection_order: release.desc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/29zombies/lists/disaster
@@ -115,7 +115,7 @@ collections:
 #    schedule: monthly(15)
 #    item_radarr_tag: PMM-Audience Bad
 #    radarr_tag: PMM-Audience Bad
-  Billion Dollar Movies:
+  Billion Dollar Earners:
     mdblist_list: https://mdblist.com/lists/mguffin/billion-dollars
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076236970361098341/xanadu68_money_movie_poster_piles_of_cash_and_gold_1ad57596-a734-4bf7-ad83-dbbf213b5f3b.png
     schedule: monthly(25)
