@@ -73,8 +73,9 @@ collections:
     radarr_tag: PMM-nostalgia
     schedule: monthly(9)
   Gangster Movies:
-    trakt_list: https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list
-    trakt_list: https://trakt.tv/users/bmonomad/lists/gangster
+    trakt_list: 
+     - https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list
+     - https://trakt.tv/users/bmonomad/lists/gangster
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076292994900168754/xanadu68_gangster_movie_poster_man_with_tommy_gun_1940s_d5eef547-1b78-4c39-8ece-5f8a3d7e45d4.png
     smart_label: critic_rating.desc
     sync_mode: sync
