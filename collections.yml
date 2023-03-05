@@ -92,7 +92,7 @@ collections:
     collection_order: release.desc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/29zombies/lists/disaster
-    url_poster: https://theposterdb.com/api/assets/204258
+    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076959644922163230/xanadu68_disaster_movie_poster_towering_inferno_4842605b-da5d-446f-9a9c-b235b1839181.png
     radarr_tag: PMM-disaster
 #  Critic Bad Movies:
 #    plex_search:
