@@ -89,8 +89,8 @@ templates:
 collections:
   Seasonal Collections:
     template:
-      - name: separator off
-        separator: seasonal
+#      - name: separator off
+#        separator: seasonal
 
   Independence Day:
     variables:
