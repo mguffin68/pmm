@@ -3,10 +3,10 @@ collections:
     schedule: monthly(1)
     trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
     imdb_list: 
-      - https://www.imdb.com/list/ls046648040/?sort=num_votes
-      - https://www.imdb.com/list/ls074038725/?sort=num_votes
-      - https://www.imdb.com/list/ls084944137/?sort=num_votes
-      - https://www.imdb.com/list/ls099275673/?sort=num_votes
+      - https://www.imdb.com/list/ls046648040/?sort=popularity%2Casc
+      - https://www.imdb.com/list/ls074038725/?sort=popularity%2Casc
+      - https://www.imdb.com/list/ls084944137/?sort=popularity%2Casc
+      - https://www.imdb.com/list/ls099275673/?sort=popularity%2Casc
     url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1075518044375355432/xanadu68_true_story_movie_poster_938e2ceb-0b02-4813-a50e-3b1c2da0578f.png
     limit: 100
     summary: Movies based on true events.
