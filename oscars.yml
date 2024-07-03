@@ -5,7 +5,7 @@ templates:
     default:
       overlay: <<overlay_name>>
       weight: 40
-    imdb_list: https://www.imdb.com/search/title/?groups=best_picture_winner
+    imdb_search: https://www.imdb.com/search/title/?groups=best_picture_winner
     overlay:
       name: <<overlay_name>>
       repo: /images/overlays/awards/<<overlay>>
