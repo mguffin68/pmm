@@ -1,126 +1,126 @@
 templates:
-collections:
-  Based on a True Story:
-    schedule: monthly(1)
-    trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
-    imdb_list: 
-      - https://www.imdb.com/list/ls046648040/?sort=popularity%2Casc
-      - https://www.imdb.com/list/ls074038725/?sort=popularity%2Casc
-      - https://www.imdb.com/list/ls084944137/?sort=popularity%2Casc
-      - https://www.imdb.com/list/ls099275673/?sort=popularity%2Casc
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1075518044375355432/xanadu68_true_story_movie_poster_938e2ceb-0b02-4813-a50e-3b1c2da0578f.png
-    limit: 100
-    summary: Movies based on true events.
-    smart_label: critic_rating.desc
-    radarr_tag: PMM-Based on True Events
-  Dark Comedies:
-    schedule: monthly(2)
-    tmdb_keyword: https://www.themoviedb.org/keyword/10123/
-    limit: 100
-    url_poster: https://cdn.discordapp.com/ephemeral-attachments/1075514124538216498/1076296706565623909/xanadu68_dark_comedy_movie_poster_4k_man_laughing_blood_906c5d40-198b-47b3-bfbb-8e69dc0950ee.png
-    sort_title: ComedyDark
-    radarr_tag: PMM-Dark Comedies
-  Martial Arts:
-    schedule: monthly(3)
-    imdb_list: https://www.imdb.com/list/ls000099643/
-    limit: 100
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076299664812408842/xanadu68_martial_arts_movie_poster_bruce_lee_full_body_kick_197_869db773-5657-4e7a-891f-b13849a35e63.png
-    radarr_tag: Martial Arts
-  Chick Flicks:
-    trakt_list: 
-      - https://trakt.tv/users/29zombies/lists/romantic-comedies
-      - https://trakt.tv/users/yirmaster/lists/chick-flicks
-    summary: Get in touch with your feminine side.
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1075517671992463381/xanadu68_chick_flick_movie_poster_b96b2eea-68a0-41f4-970a-f04621861847.png
-    collection_order: alpha
-    collection_mode: default
-    radarr_tag: PMM-Chick Flicks
-    schedule: monthly(4)
-  Heist:
-    imdb_list:
-      - https://www.imdb.com/list/ls068224634/
-      - https://www.imdb.com/list/ls009794682/
-    summary: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist.
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076295836557918258/xanadu68_heist_movie_poster_bank_vault_35mm_2b428c96-b474-41f2-a28f-c3d3c15b0401.png
-    collection_order: alpha
-    collection_mode: default
-    radarr_tag: PMM-Heist Movies
-    schedule: monthly(5)
-  Time Travel:
-    smart_label: title.asc
-    trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
-    summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076575057515655368/xanadu68_time_travel_movie_poster_2c0e0443-7934-4e94-aaaa-7f1d8dc0ea6d.png
-    radarr_tag: PMM-Time Travel
-    schedule: monthly(7)
-  Mindfuck:
-    trakt_list:
-     - https://trakt.tv/users/hdlists/lists/mindfuck-movies
-     - https://trakt.tv/users/benfranklin/lists/best-mindfucks
-    smart_label: critic_rating.desc
-    sync_mode: sync
-    summary: Movies to leave your mind, well, fucked. Sorted by critical acclaim.
-    url_poster: https://cdn.discordapp.com/attachments/975040264701870103/1075470391922925659/xanadu68_mindblowing_movie_poster_5257b75a-bfb9-41e0-8494-fab0608d5a4e.png
-    url_background: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/mindfuck_background.jpeg
-    radarr_tag: PMM-mindfuck
-    schedule: monthly(8)
-  Nostalgia:
-    trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    summary: All The Nostalgiac Movies From The 80s & 90s in One Collection, sorted by critical acclaim.
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076303537832722462/xanadu68_vhs_movie_poster_1980s_7124bc48-ed62-4694-a835-f1d7f55d7dd8.png
-    url_background: https://cdn.discordapp.com/attachments/1075514124538216498/1076310517657899028/xanadu68_1908s_teens_walking_through_hollywood_4k_cinematic_bbcd791b-72b4-4d64-a498-bb6c261c6ae4.png
-    radarr_tag: PMM-nostalgia
-    schedule: monthly(9)
-  Gangster:
-    trakt_list: 
-     - https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list
-     - https://trakt.tv/users/bmonomad/lists/gangster
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076292994900168754/xanadu68_gangster_movie_poster_man_with_tommy_gun_1940s_d5eef547-1b78-4c39-8ece-5f8a3d7e45d4.png
-    smart_label: critic_rating.desc
-    sync_mode: sync
-    schedule: monthly(10)
-    radarr_tag: PMM-gangster
-  Music:
-    trakt_list: https://trakt.tv/users/mguffin/lists/music-movies
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076302002079936523/xanadu68_music_movie_poster_led_zepplin_on_stage_f403c950-f029-4a88-b0fe-ee6d96ad15b9.png
-    smart_label: critic_rating.desc
-    sync_mode: sync
-    schedule: monthly(11)
-    radarr_tag: PMM-music
-  Disaster:
-    collection_order: release.desc
-    sync_mode: sync
-    trakt_list: https://trakt.tv/users/29zombies/lists/disaster
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076959644922163230/xanadu68_disaster_movie_poster_towering_inferno_4842605b-da5d-446f-9a9c-b235b1839181.png
-    radarr_tag: PMM-disaster
-#  Critic Bad Movies:
-#    plex_search:
-#      all:
-#        genre.not: Biography, Animation, Documentary
-#        critic_rating.gte: 0.1
-#        label.not: keep
-#      sort_by: critic_rating.asc
-#      limit: 20
-#    schedule: monthly(15)
-#    item_radarr_tag: PMM-Critic Bad
-#    radarr_tag: PMM-Critic Bad
-# Audience Bad Movies:
-#    plex_search:
-#      all:
-#        genre.not: Biography, Animation, Documentary
-#        audience_rating.gte: 0.1
-#        label.not: keep
-#     sort_by: audience_rating.asc
-#     limit: 20
-#    schedule: monthly(15)
-#    item_radarr_tag: PMM-Audience Bad
-#    radarr_tag: PMM-Audience Bad
-  Billion Dollar Earners:
-    mdblist_list: https://mdblist.com/lists/mguffin/billion-dollars
-    url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076236970361098341/xanadu68_money_movie_poster_piles_of_cash_and_gold_1ad57596-a734-4bf7-ad83-dbbf213b5f3b.png
-    schedule: monthly(25)
-    item_radarr_tag: PMM-Billion
-    radarr_tag: PMM-Billion
-    sort_by: year.asc
+  collections:
+    Based on a True Story:
+      schedule: monthly(1)
+      trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+      imdb_list: 
+        - https://www.imdb.com/list/ls046648040/?sort=popularity%2Casc
+        - https://www.imdb.com/list/ls074038725/?sort=popularity%2Casc
+        - https://www.imdb.com/list/ls084944137/?sort=popularity%2Casc
+        - https://www.imdb.com/list/ls099275673/?sort=popularity%2Casc
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1075518044375355432/xanadu68_true_story_movie_poster_938e2ceb-0b02-4813-a50e-3b1c2da0578f.png
+      limit: 100
+      summary: Movies based on true events.
+      smart_label: critic_rating.desc
+      radarr_tag: PMM-Based on True Events
+    Dark Comedies:
+      schedule: monthly(2)
+      tmdb_keyword: https://www.themoviedb.org/keyword/10123/
+      limit: 100
+      url_poster: https://cdn.discordapp.com/ephemeral-attachments/1075514124538216498/1076296706565623909/xanadu68_dark_comedy_movie_poster_4k_man_laughing_blood_906c5d40-198b-47b3-bfbb-8e69dc0950ee.png
+      sort_title: ComedyDark
+      radarr_tag: PMM-Dark Comedies
+    Martial Arts:
+      schedule: monthly(3)
+      imdb_list: https://www.imdb.com/list/ls000099643/
+      limit: 100
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076299664812408842/xanadu68_martial_arts_movie_poster_bruce_lee_full_body_kick_197_869db773-5657-4e7a-891f-b13849a35e63.png
+      radarr_tag: Martial Arts
+    Chick Flicks:
+      trakt_list: 
+        - https://trakt.tv/users/29zombies/lists/romantic-comedies
+        - https://trakt.tv/users/yirmaster/lists/chick-flicks
+      summary: Get in touch with your feminine side.
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1075517671992463381/xanadu68_chick_flick_movie_poster_b96b2eea-68a0-41f4-970a-f04621861847.png
+      collection_order: alpha
+      collection_mode: default
+      radarr_tag: PMM-Chick Flicks
+      schedule: monthly(4)
+    Heist:
+      imdb_list:
+        - https://www.imdb.com/list/ls068224634/
+        - https://www.imdb.com/list/ls009794682/
+      summary: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist.
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076295836557918258/xanadu68_heist_movie_poster_bank_vault_35mm_2b428c96-b474-41f2-a28f-c3d3c15b0401.png
+      collection_order: alpha
+      collection_mode: default
+      radarr_tag: PMM-Heist Movies
+      schedule: monthly(5)
+    Time Travel:
+      smart_label: title.asc
+      trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
+      summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076575057515655368/xanadu68_time_travel_movie_poster_2c0e0443-7934-4e94-aaaa-7f1d8dc0ea6d.png
+      radarr_tag: PMM-Time Travel
+      schedule: monthly(7)
+    Mindfuck:
+      trakt_list:
+       - https://trakt.tv/users/hdlists/lists/mindfuck-movies
+       - https://trakt.tv/users/benfranklin/lists/best-mindfucks
+      smart_label: critic_rating.desc
+      sync_mode: sync
+      summary: Movies to leave your mind, well, fucked. Sorted by critical acclaim.
+      url_poster: https://cdn.discordapp.com/attachments/975040264701870103/1075470391922925659/xanadu68_mindblowing_movie_poster_5257b75a-bfb9-41e0-8494-fab0608d5a4e.png
+      url_background: https://raw.githubusercontent.com/mguffin68/pmm/main/images/collections/mindfuck_background.jpeg
+      radarr_tag: PMM-mindfuck
+      schedule: monthly(8)
+    Nostalgia:
+      trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
+      sync_mode: sync
+      smart_label: critic_rating.desc
+      summary: All The Nostalgiac Movies From The 80s & 90s in One Collection, sorted by critical acclaim.
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076303537832722462/xanadu68_vhs_movie_poster_1980s_7124bc48-ed62-4694-a835-f1d7f55d7dd8.png
+      url_background: https://cdn.discordapp.com/attachments/1075514124538216498/1076310517657899028/xanadu68_1908s_teens_walking_through_hollywood_4k_cinematic_bbcd791b-72b4-4d64-a498-bb6c261c6ae4.png
+      radarr_tag: PMM-nostalgia
+      schedule: monthly(9)
+    Gangster:
+      trakt_list: 
+       - https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list
+       - https://trakt.tv/users/bmonomad/lists/gangster
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076292994900168754/xanadu68_gangster_movie_poster_man_with_tommy_gun_1940s_d5eef547-1b78-4c39-8ece-5f8a3d7e45d4.png
+      smart_label: critic_rating.desc
+      sync_mode: sync
+      schedule: monthly(10)
+      radarr_tag: PMM-gangster
+    Music:
+      trakt_list: https://trakt.tv/users/mguffin/lists/music-movies
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076302002079936523/xanadu68_music_movie_poster_led_zepplin_on_stage_f403c950-f029-4a88-b0fe-ee6d96ad15b9.png
+      smart_label: critic_rating.desc
+      sync_mode: sync
+      schedule: monthly(11)
+      radarr_tag: PMM-music
+    Disaster:
+      collection_order: release.desc
+      sync_mode: sync
+      trakt_list: https://trakt.tv/users/29zombies/lists/disaster
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076959644922163230/xanadu68_disaster_movie_poster_towering_inferno_4842605b-da5d-446f-9a9c-b235b1839181.png
+      radarr_tag: PMM-disaster
+  #  Critic Bad Movies:
+  #    plex_search:
+  #      all:
+  #        genre.not: Biography, Animation, Documentary
+  #        critic_rating.gte: 0.1
+  #        label.not: keep
+  #      sort_by: critic_rating.asc
+  #      limit: 20
+  #    schedule: monthly(15)
+  #    item_radarr_tag: PMM-Critic Bad
+  #    radarr_tag: PMM-Critic Bad
+  # Audience Bad Movies:
+  #    plex_search:
+  #      all:
+  #        genre.not: Biography, Animation, Documentary
+  #        audience_rating.gte: 0.1
+  #        label.not: keep
+  #     sort_by: audience_rating.asc
+  #     limit: 20
+  #    schedule: monthly(15)
+  #    item_radarr_tag: PMM-Audience Bad
+  #    radarr_tag: PMM-Audience Bad
+    Billion Dollar Earners:
+      mdblist_list: https://mdblist.com/lists/mguffin/billion-dollars
+      url_poster: https://cdn.discordapp.com/attachments/1075514124538216498/1076236970361098341/xanadu68_money_movie_poster_piles_of_cash_and_gold_1ad57596-a734-4bf7-ad83-dbbf213b5f3b.png
+      schedule: monthly(25)
+      item_radarr_tag: PMM-Billion
+      radarr_tag: PMM-Billion
+      sort_by: year.asc
