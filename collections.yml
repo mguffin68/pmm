@@ -2,7 +2,7 @@ templates:
   Collection:
     cache_builders: 30
     sync_mode: sync
-    sort_title: ZZZ-<<source>>-<<collection_name>>
+    sort_title: <<collection_name>>
 collections:
   Based on a True Story:
     schedule: monthly(1)
